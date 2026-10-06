@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-and-test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        compiler: [gcc, clang]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure
+        run: |
+          if [ "${{ matrix.compiler }}" = "clang" ]; then export CC=clang CXX=clang++; fi
+          cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_COMPILE_WARNING_AS_ERROR=ON
+      - name: Build
+        run: cmake --build build -j
+      - name: "Test (CTest: all suites + regression checks of both counters)"
+        run: ctest --test-dir build --output-on-failure
+      - name: Makefile build
+        run: |
+          if [ "${{ matrix.compiler }}" = "clang" ]; then export CC=clang CXX=clang++; fi
+          make -j all && make test
+
+  verify-python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy sympy
+      - name: Independent brute force (n <= 6) and sequence analysis
+        run: |
+          cd verify && python3 decomp_check.py && cd ..
+          python3 scripts/analyze_sequences.py

@@ -1,0 +1,14 @@
+bin/
+build/
+build-*/
+cmake-build-*/
+*.o
+*.a
+*.bin
+*.ckpt
+rcount_tmp/
+irc_tmp/
+__pycache__/
+.vscode/
+.idea/
+.DS_Store

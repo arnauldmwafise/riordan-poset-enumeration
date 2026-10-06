@@ -1,0 +1,13 @@
+{
+  "title": "riordan-poset-enumeration: construction, enumeration and analysis of Riordan posets",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    { "name": "Lastname, Firstname", "affiliation": "Institution" }
+  ],
+  "keywords": ["Riordan arrays", "partially ordered sets", "poset enumeration", "combinatorics", "graph isomorphism"],
+  "related_identifiers": [
+    { "identifier": "10.1016/j.laa.2021.10.002", "relation": "isSupplementTo", "scheme": "doi" }
+  ],
+  "description": "Header-only C++20 library and tools for Riordan posets (posets whose order relation is a binary Riordan matrix): enumeration, canonical forms, verified counts of Riordan posets up to n = 28, recognition, Toeplitz and exponential Riordan posets, and an exact decision procedure for infinite Riordan posets."
+}

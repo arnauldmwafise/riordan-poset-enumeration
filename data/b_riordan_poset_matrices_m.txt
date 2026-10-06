@@ -1,0 +1,30 @@
+# m(n): number of n x n binary Riordan matrices that are poset matrices
+# OEIS b-file format: "n a(n)"; every term confirmed by two independent programs (see README)
+1 1
+2 2
+3 7
+4 22
+5 55
+6 121
+7 214
+8 475
+9 970
+10 2122
+11 4316
+12 8876
+13 16443
+14 36281
+15 72909
+16 162536
+17 321419
+18 656225
+19 1198005
+20 2634534
+21 5243230
+22 11497714
+23 22571793
+24 47110953
+25 86046455
+26 186702111
+27 364554584
+28 799401460

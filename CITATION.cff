@@ -1,0 +1,57 @@
+# Citation metadata (https://citation-file-format.github.io/).
+# TODO before the first release: replace the author entries and the repository URL,
+# and add the DOI assigned by Zenodo under "identifiers".
+cff-version: 1.2.0
+message: "If you use this software or its data, please cite it as below, together with the paper that introduced Riordan posets."
+title: "riordan-poset-enumeration: construction, enumeration and analysis of Riordan posets"
+type: software
+version: 1.1.0
+date-released: 2026-10-04
+license: MIT
+repository-code: "https://github.com/OWNER/riordan-poset-enumeration"
+authors:
+  - family-names: "Lastname"
+    given-names: "Firstname"
+    affiliation: "Institution"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+keywords:
+  - Riordan arrays
+  - partially ordered sets
+  - poset enumeration
+  - binary matrices
+  - combinatorics
+  - graph isomorphism
+abstract: >-
+  Header-only C++20 library and tools for Riordan posets: posets whose order
+  relation is a binary Riordan matrix. Includes tree enumeration of all Riordan
+  poset matrices, canonical forms and large-scale counting of Riordan posets up to
+  isomorphism (verified values for n <= 28), recognition of Riordan posets, Toeplitz
+  and exponential Riordan posets, and an exact decision procedure for infinite
+  Riordan posets with rational generating functions.
+references:
+  - type: article
+    authors:
+      - family-names: "Cheon"
+        given-names: "Gi-Sang"
+      - family-names: "Curtis"
+        given-names: "Bryan"
+      - family-names: "Kwon"
+        given-names: "Gukwon"
+      - family-names: "Mesinga Mwafise"
+        given-names: "Arnauld"
+    title: "Riordan posets and associated incidence matrices"
+    journal: "Linear Algebra and its Applications"
+    volume: 632
+    start: 308
+    end: 331
+    year: 2022
+    doi: "10.1016/j.laa.2021.10.002"
+  - type: software
+    authors:
+      - family-names: "McKay"
+        given-names: "Brendan D."
+      - family-names: "Piperno"
+        given-names: "Adolfo"
+    title: "nauty and Traces"
+    version: "2.8.8"
+    url: "https://pallini.di.uniroma1.it/"

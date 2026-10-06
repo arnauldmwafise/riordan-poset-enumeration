@@ -1,0 +1,30 @@
+# r(n): number of non-isomorphic Riordan posets on n elements
+# OEIS b-file format: "n a(n)"; every term confirmed by two independent programs (see README)
+1 1
+2 2
+3 5
+4 11
+5 33
+6 74
+7 144
+8 232
+9 639
+10 1406
+11 3164
+12 4992
+13 12501
+14 26973
+15 55937
+16 104169
+17 266428
+18 517316
+19 941970
+20 1742608
+21 4424434
+22 9366627
+23 18579721
+24 32869555
+25 73299324
+26 153092515
+27 301274742
+28 572885293

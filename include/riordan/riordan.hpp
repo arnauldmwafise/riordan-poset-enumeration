@@ -1,0 +1,15 @@
+// riordan/riordan.hpp -- umbrella header for the Riordan poset library.
+#pragma once
+#include "bits.hpp"
+#include "gf2_series.hpp"
+#include "bool_matrix.hpp"
+#include "binary_riordan.hpp"
+#include "poset.hpp"
+#include "canon.hpp"
+#include "enumerate.hpp"
+#include "recognize.hpp"
+#include "io.hpp"
+#include "toeplitz.hpp"
+#include "exponential.hpp"
+#include "infinite.hpp"
+#include "decompose.hpp"

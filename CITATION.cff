@@ -6,6 +6,13 @@ type: software
 version: 1.1.0
 date-released: 2026-10-06
 license: MIT
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23188305"
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23188306"
+    description: "Version 1.1.0"
 repository-code: "https://github.com/arnauldmwafise/riordan-poset-enumeration"
 authors:
   - family-names: "Mesinga Mwafise"

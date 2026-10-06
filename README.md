@@ -4,7 +4,7 @@
 sets whose order relation is a binary Riordan matrix (Cheon, Curtis, Kwon and
 Mesinga Mwafise, *Linear Algebra Appl.* 632 (2022) 308–331).
 
-[![CI](https://github.com/OWNER/riordan-poset-enumeration/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/riordan-poset-enumeration/actions/workflows/ci.yml)
+[![CI](https://github.com/arnauldmwafise/riordan-poset-enumeration/actions/workflows/ci.yml/badge.svg)](https://github.com/arnauldmwafise/riordan-poset-enumeration/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
@@ -280,7 +280,7 @@ CMake ≥ 3.16. nauty is bundled. Python 3 with `pynauty`, `numpy` and `sympy` i
 needed only for the optional verification and analysis scripts.
 
 ```sh
-git clone https://github.com/OWNER/riordan-poset-enumeration.git
+git clone https://github.com/arnauldmwafise/riordan-poset-enumeration.git
 cd riordan-poset-enumeration
 
 make            # builds bin/riordan, bin/rcount, examples and test suites

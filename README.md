@@ -13,8 +13,6 @@ test suite, independent verification programs, and the data it produced: the
 number of Riordan posets for every size up to **n = 28**, each value confirmed by
 two separately written programs (the original paper went up to n = 8).
 
-> Replace `OWNER` and the DOI placeholders after creating the GitHub repository
-> and the first Zenodo release (see [Citing](#citing)).
 
 ## Contents
 

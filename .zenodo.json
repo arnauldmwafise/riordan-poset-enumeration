@@ -3,7 +3,7 @@
   "upload_type": "software",
   "license": "MIT",
   "creators": [
-    { "name": "Lastname, Firstname", "affiliation": "Institution" }
+    { "name": "Mesinga Mwafise, Arnauld", "affiliation": "Independent Researcher" }
   ],
   "keywords": ["Riordan arrays", "partially ordered sets", "poset enumeration", "combinatorics", "graph isomorphism"],
   "related_identifiers": [

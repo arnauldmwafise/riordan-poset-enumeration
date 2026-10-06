@@ -1,6 +1,4 @@
 # Citation metadata (https://citation-file-format.github.io/).
-# TODO before the first release: replace the author entries and the repository URL,
-# and add the DOI assigned by Zenodo under "identifiers".
 cff-version: 1.2.0
 message: "If you use this software or its data, please cite it as below, together with the paper that introduced Riordan posets."
 title: "riordan-poset-enumeration: construction, enumeration and analysis of Riordan posets"

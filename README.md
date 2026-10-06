@@ -6,7 +6,7 @@ Mesinga Mwafise, *Linear Algebra Appl.* 632 (2022) 308–331).
 
 [![CI](https://github.com/arnauldmwafise/riordan-poset-enumeration/actions/workflows/ci.yml/badge.svg)](https://github.com/arnauldmwafise/riordan-poset-enumeration/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23188305.svg)](https://doi.org/10.5281/zenodo.23188305)
 
 The repository contains a header-only C++20 library, command-line tools, a large
 test suite, independent verification programs, and the data it produced: the

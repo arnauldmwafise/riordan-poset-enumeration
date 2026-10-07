@@ -452,11 +452,6 @@ and cite the paper that introduced Riordan posets:
 > associated incidence matrices*, Linear Algebra and its Applications 632 (2022)
 > 308–331. https://doi.org/10.1016/j.laa.2021.10.002
 
-To obtain a DOI for the software: connect the repository to
-[Zenodo](https://zenodo.org/), create a GitHub release, and put the DOI Zenodo
-assigns into `CITATION.cff` and the badge above. `.zenodo.json` supplies the
-metadata for the Zenodo record.
-
 ## 11. License and acknowledgements
 
 The code is released under the [MIT License](LICENSE). The bundled

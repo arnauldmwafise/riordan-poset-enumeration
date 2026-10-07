@@ -42,7 +42,7 @@ First public release.
 
 ### Data and results
 - Verified counts m(n), r(n) for n <= 28 (`data/`), each confirmed by two independent programs.
-- Answer to the open question of Section 2 of Cheon et al. (2022); errata to Theorems 5.3 and 5.6;
+- Answer to the open question of Section 2 of Cheon et al. (2022);
   new infinite family; sequence analysis.
 
 ### Quality

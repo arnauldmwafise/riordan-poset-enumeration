@@ -80,17 +80,3 @@ non-singleton cell, and pruning of twins (a twin transposition is an
 automorphism fixing every previously individualised vertex). The minimum leaf
 certificate is canonical.
 
-## Notes on the paper found while implementing
-
-* **Proof of Theorem 5.1.** The paper writes `P4 = (1 ⊕ (1+1)) + 1`.
-  The binary Pascal matrix gives `P4 = B_2 = 1 ⊕ (1+1) ⊕ 1`, which is also
-  what the paper's own `P5 = 1 ⊕ (((1+1) ⊕ 1) + 1)` requires. The theorem's
-  conclusion (P_n is series-parallel iff n <= 5) is confirmed for n <= 20.
-* **Theorem 2.8.** The formula for the dual pair is garbled in some PDF
-  extractions; the library obtains the dual by flip-transpose plus F1, and the
-  tests confirm that the flip-transpose of every Riordan poset matrix of order
-  <= 9 is again a Riordan poset matrix of the dual poset.
-  For `P5` it returns `((1+t)^4, t/(1-t))`, as in the paper.
-* **Theorem 5.3 (resolved in Phase 6: the statement is wrong, the proof is right).** The proof says `g_1 = α + 1 mod 2`,
-  which with Theorem 5.2 makes *odd* `α` give the antichain, while the
-  statement assigns the antichain to *even* `α`.

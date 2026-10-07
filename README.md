@@ -424,7 +424,7 @@ third_party/nauty/    nauty 2.8.8 (Apache-2.0)
 |---|---|
 | [`docs/THEORY.md`](docs/THEORY.md) | the mathematics behind every routine, with references to the paper |
 | [`docs/ALGORITHMS.md`](docs/ALGORITHMS.md) | the enumeration, canonical forms, partitioning, parallelisation and their complexity |
-| [`docs/RESULTS.md`](docs/RESULTS.md) | all results: census, open question, infinite posets, Toeplitz and exponential posets, errata |
+| [`docs/RESULTS.md`](docs/RESULTS.md) | all results: survey of Riordan posets, open question, infinite posets, Toeplitz and exponential posets, errata |
 | [`docs/SEQUENCE_ANALYSIS.md`](docs/SEQUENCE_ANALYSIS.md) | recurrence and generating-function searches, growth-rate estimates, conjectures |
 | [`verify/README.md`](verify/README.md) | how each published number was cross-checked |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | development workflow, coding and testing conventions |

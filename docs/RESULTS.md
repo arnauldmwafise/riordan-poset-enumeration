@@ -109,7 +109,7 @@ ones, and they are decomposable).
 
 *Proof of non-Riordan-ness.* For `n = 5` there are `2^(2·5−3) = 128` binary
 Riordan matrices; by exhaustion none is a poset matrix isomorphic to X1–X4. This
-was checked three ways: the census, the library's separate recognizer
+was checked three ways: the survey of Section 1, the library's separate recognizer
 (search over linear extensions), and an independent short Python script that
 recomputes all 128 matrices from the definition and tests isomorphism by trying
 all 120 permutations (`verify/decomp_check.py`).

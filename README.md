@@ -295,7 +295,6 @@ Other results of the project (details and proofs in
 * **Deciding infiniteness.** For rational `g, f` the question "is `{g,f}_n` a poset
   matrix for every n?" is decidable via 2-automata; implemented in `riordan decide`.
 * **A new infinite family**: `{(1+t)^k, t/(1+t)} = P*_{k+1} + P` for all `k ≥ 0`.
-* **Errata** to Theorems 5.3 and 5.6 of the paper.
 * **Sequence behaviour** ([`docs/SEQUENCE_ANALYSIS.md`](docs/SEQUENCE_ANALYSIS.md)):
   no low-order recurrence or algebraic generating function; m(n)^(1/n) → 2
   (conjecturally) with a slowly growing correction factor.

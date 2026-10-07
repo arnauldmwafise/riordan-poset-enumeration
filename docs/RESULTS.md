@@ -12,7 +12,7 @@ Convention throughout: `a_ij = 1` iff `x_j <= x_i`, indices from 0,
 `{g,f}_n = [[t^i] g f^j mod 2]`, `P_n` the Pascal poset, `P` the infinite one,
 `I_n` the antichain, `+` direct sum, `⊕` ordinal sum, `Q*` the dual of `Q`.
 
-## 1. Census of Riordan posets
+## 1. Survey of Riordan posets
 
 `r(n)` is the number of non-isomorphic Riordan posets on `n` elements; `m(n)`
 the number of (labelled) Riordan poset matrices of order `n`.

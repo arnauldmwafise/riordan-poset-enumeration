@@ -11,7 +11,7 @@ Mesinga Mwafise, *Linear Algebra Appl.* 632 (2022) 308–331).
 The repository contains a header-only C++20 library, command-line tools, a large
 test suite, independent verification programs, and the data it produced: the
 number of Riordan posets for every size up to **n = 28**, each value confirmed by
-two separately written programs (the original paper went up to n = 8).
+two separately written programs (previously known: n ≤ 15, OEIS A379608).
 
 
 ## Contents

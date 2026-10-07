@@ -251,15 +251,6 @@ like `n/2`; series-parallel Riordan posets become rare; and apart from the chain
 bounded Riordan posets occur only at `n = 4` and `n = 8` in this range (powers of
 2, where `P_n` is the Boolean lattice `B_{log2 n}`).
 
-## 7. Errata to the paper found by these computations
-
-1. **Theorem 5.3**: parities of `α` swapped in the statement (proof is right).
-2. **Theorem 5.6**: for even modulus the decomposition is `I_⌊n/2⌋ + P_⌈n/2⌉`.
-3. **Proof of Theorem 5.1**: `P_4 = 1 ⊕ (1+1) ⊕ 1 = B_2`, not `(1 ⊕ (1+1)) + 1`
-   (see `THEORY.md`); the theorem itself is correct.
-4. **Theorem 5.7** does not define the "derivative" precisely; the reading above
-   is the one that reproduces the stated result.
-
 ## Reproducing
 
 ```sh

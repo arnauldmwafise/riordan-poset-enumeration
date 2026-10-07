@@ -135,7 +135,7 @@ facts about Riordan matrices turn into facts about posets.
 * **r(n)** = the number of **non-isomorphic** posets among them, i.e. the number
   of different posets on `n` elements that have at least one Riordan labelling.
 
-  > **Terminology.** *Riordan labelling* is a term coined for this project; it does
+> **Terminology.** *Riordan labelling* is a term coined for this project; it does
 > not appear in Cheon et al. (2022). A **labelling** of a poset P on n elements
 > numbers its elements `x_0, …, x_(n−1)`; it is a **Riordan labelling** if the
 > resulting poset matrix A_P (`a(i,j) = 1` iff `x_j ≤ x_i`) is a binary Riordan

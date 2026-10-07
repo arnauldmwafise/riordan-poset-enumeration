@@ -224,7 +224,28 @@ For a smaller warm-up, `bin/sample_listing 3` shows m(3) = 7 and r(3) = 5
 ## 4. Results
 
 Counts of Riordan poset matrices m(n) and of Riordan posets up to isomorphism
-r(n). Values for n ≤ 8 agree with the paper; **n ≥ 9 are new**.
+r(n), for 1 ≤ n ≤ 28. Relative to the published record these counts reach two
+milestones:
+
+1. **Unlabelled Riordan posets r(n), extended from n = 15 to n = 28.** Cheon,
+   Curtis, Kwon and Mesinga Mwafise (2022) gave r(n) for n ≤ 8, and OEIS
+   [A379608](https://oeis.org/A379608) currently lists r(n) for n ≤ 15
+   (a(9) added June 2025, a(10)–a(15) January 2026). This software reproduces
+   all 15 known terms exactly and adds the **13 new terms r(16), …, r(28)**.
+2. **Labeled Riordan posets m(n): a new sequence, n = 1 to 28.** m(n) is the
+   number of n × n binary Riordan matrices that are poset matrices. Each such
+   matrix is a labeled copy of a Riordan poset, and a single Riordan poset can
+   admit several different labeled copies, that is, several distinct Riordan poset
+   matrices describing the same poset under different labelings (for example, the
+   "N" poset on 4 elements has 5). Hence m(n) ≥ r(n): m(n) counts the labeled
+   Riordan posets (all labeled copies), while r(n) counts only the non-isomorphic
+   (unlabeled) Riordan posets. This sequence has not been published
+   before, and we found no OEIS entry for it (October 2026). **All 28 terms are new.**
+
+Every value was confirmed by two programs built on separately written
+enumerators (see the "checked by" column). Both counters are multi-threaded and
+resumable, so larger n (29, 30, …) can be reached with the same code on a
+multi-core machine (see [§6](#6-tools) and [`verify/README.md`](verify/README.md)).
 
 | n | m(n) | r(n) | checked by |
 |---|---|---|---|

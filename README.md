@@ -432,8 +432,8 @@ third_party/nauty/    nauty 2.8.8 (Apache-2.0)
 ## 9. Verification and reproducibility
 
 * `make test` / `ctest`: ~950,000 checks in 8 suites — every computable statement
-  of the paper, fast routines against naive reference implementations, brute
-  force over all `2^(2n−3)` matrices for n ≤ 11, and the corrected theorems.
+  of the paper, fast routines against naive reference implementations and brute
+  force over all `2^(2n−3)` matrices for n ≤ 11.
 * `scripts/check_rcount.sh`: `bin/rcount` against r(1..16) in all its modes.
 * `verify/`: independent implementations (separately written enumerator, Python
   brute force, exact rational arithmetic, nauty) used to confirm every published

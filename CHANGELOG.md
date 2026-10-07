@@ -2,6 +2,13 @@
 
 All notable changes are recorded here. The project follows [Semantic Versioning](https://semver.org/).
 
+     ## [1.1.1] - 2026-10-07
+
+     ### Changed
+     - README and docs: results now stated relative to OEIS A379608 (r(n) known for n <= 15):
+       r(16)-r(28) are new, and m(n) (labeled Riordan posets) is a new sequence for n = 1..28.
+     - README: definition of the term "Riordan labelling"; docs/RESULTS.md section 1 renamed
+       "Survey of Riordan posets".
 ## [1.1.0] - 2026-10-04
 
 ### Added

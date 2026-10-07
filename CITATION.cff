@@ -3,8 +3,8 @@ cff-version: 1.2.0
 message: "If you use this software or its data, please cite it as below, together with the paper that introduced Riordan posets."
 title: "riordan-poset-enumeration: construction, enumeration and analysis of Riordan posets"
 type: software
-version: 1.1.0
-date-released: 2026-10-06
+version: 1.1.1
+date-released: 2026-10-07
 license: MIT
 identifiers:
   - type: doi

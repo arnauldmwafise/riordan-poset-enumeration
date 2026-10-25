@@ -317,7 +317,7 @@ make test       # runs all test suites (~950,000 checks, a few seconds)
 cmake -B build && cmake --build build && ctest --test-dir build
 ```
 
-Five minutes with the tools:
+A quick tour of the tools (each command finishes within seconds):
 
 ```sh
 bin/riordan build "1/(1-t)" "t/(1-t)" 8     # the Pascal poset matrix P_8, poset test, (g,f)

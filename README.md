@@ -449,6 +449,8 @@ and cite the paper that introduced Riordan posets:
 > associated incidence matrices*, Linear Algebra and its Applications 632 (2022)
 > 308–331. https://doi.org/10.1016/j.laa.2021.10.002
 
+If you use the counts, please also cite OEIS A379608 and A400879.
+
 ## 11. License and acknowledgements
 
 The code is released under the [MIT License](LICENSE). The bundled

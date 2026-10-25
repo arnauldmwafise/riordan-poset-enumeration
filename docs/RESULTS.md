@@ -48,9 +48,8 @@ the number of (labelled) Riordan poset matrices of order `n`.
 | 27 | 364554584 | 301274742 | C, D |
 | 28 | 799401460 | 572885293 | C, D |
 
-*  `n <= 8` agrees with the paper and `n <= 15` with OEIS A379608 (terms added in 2025-2026);
-  r(n) for `16 <= n <= 28` is new. m(n) (labelled) does not appear in the paper or, as far as
-  we could determine, in the OEIS (October 2026); all its terms are new.
+*  n <= 8 agrees with the paper and n <= 15 with the earlier terms of OEIS A379608. The terms r(16)–r(28) computed here are now in A379608 (October 2026). m(n) (labelled) is the new OEIS sequence A400879; all its terms come from this work.
+Also search docs/SEQUENCE_ANALYSIS.md and docs/THEORY.md for “OEIS”. Change any sentence that says m(n) is not in the OEIS.
 * **Methods.** A: the library's tree enumerator (Fact F2 in `THEORY.md`) with
   its own individualization–refinement canonical form (`bin/riordan census`,
   `verify/census_lean.cpp`, or `bin/rcount --canon library`). B: a separately

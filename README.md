@@ -231,7 +231,7 @@ milestones:
 
 1. **Unlabelled Riordan posets r(n), extended from n = 15 to n = 28.** Cheon,
    Curtis, Kwon and Mesinga Mwafise (2022) gave r(n) for n ≤ 8, and OEIS
-   [A379608](https://oeis.org/A379608) OEIS A379608 listed r(n) for n ≤ 15 (a(9) added June 2025, a(10)–a(15) January 2026). This software reproduces all 15 known terms exactly. The 13 new terms r(16), …, r(28) computed here were added to A379608 in October 2026.
+   [A379608](https://oeis.org/A379608) OEIS: A379608 listed r(n) for n ≤ 15 (a(9) added June 2025, a(10)–a(15) January 2026). This software reproduces all 15 known terms exactly. The 13 new terms r(16), …, r(28) computed here were added to A379608 in October 2026.
 2. **Labeled Riordan posets m(n): a new sequence, n = 1 to 28.** m(n) is the
    number of n × n binary Riordan matrices that are poset matrices. Each such
    matrix is a labeled copy of a Riordan poset, and a single Riordan poset can

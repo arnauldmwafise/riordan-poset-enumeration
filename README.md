@@ -281,8 +281,7 @@ Methods: **A** library enumerator + library canonical form; **B** independent
 enumerator (`verify/independent`) + nauty via Python; **C** `bin/rcount`
 (fast enumerator + nauty from C++); **D** `verify/independent_rcount.cpp`
 (independent enumerator + nauty from C++, different hash; multi-threaded). Every row has two
-methods with different enumerators. Machine-readable copies, including OEIS
-b-files, are in [`data/`](data/).
+methods with different enumerators. Machine-readable copies are in data/, including b-files in OEIS format for A379608 and A400879.
 
 Other results of the project (details and proofs in
 [`docs/RESULTS.md`](docs/RESULTS.md)):

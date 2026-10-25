@@ -410,7 +410,7 @@ examples/             quickstart.cpp, sample_listing.cpp
 tests/                test_common.hpp + one test suite per module (CTest)
 verify/               independent re-implementations and cross-check scripts
 scripts/              check_rcount.sh, analyze_sequences.py
-data/                 counts (CSV) and OEIS-style b-files
+data/                 counts (CSV) and b-files for A379608 and A400879
 docs/                 theory, algorithms, results, sequence analysis
 third_party/nauty/    nauty 2.8.8 (Apache-2.0)
 ```

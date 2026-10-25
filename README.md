@@ -239,7 +239,7 @@ milestones:
    matrices describing the same poset under different labelings (for example, the
    "N" poset on 4 elements has 5). Hence m(n) ≥ r(n): m(n) counts the labeled
    Riordan posets (all labeled copies), while r(n) counts only the non-isomorphic
-   (unlabeled) Riordan posets. This sequence had not been published before. It is now OEIS A400879 (October 2026), and all 28 of its terms come from this work.
+   (unlabeled) Riordan posets. This sequence had not been published before. It is now OEIS [A379608](https://oeis.org/A400879 ) A400879 (October 2026), and all 28 of its terms come from this work.
 
 Every value was confirmed by two programs built on separately written
 enumerators (see the "checked by" column). Both counters are multi-threaded and

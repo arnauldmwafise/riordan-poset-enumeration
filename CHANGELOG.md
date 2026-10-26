@@ -3,8 +3,18 @@
 All notable changes are recorded here. The project follows [Semantic Versioning](https://semver.org/).
      
      ## [1.2.0] - 2026-10-26
-     
-     ## [1.1.1] - 2026-10-07
+
+### Changed
+- The counts are now in the OEIS: the new terms r(16)–r(28) of the non-isomorphic (unlabelled) Riordan posets were added to A379608, and the counts m(n) of labelled Riordan posets (Riordan poset matrices) form the new sequence A400879 (both approved October 2026).
+- README, docs/RESULTS.md and the headers of the files in data/ now cite A379608 and A400879.
+- CITATION.cff and .zenodo.json: version 1.2.0, OEIS references and keywords added.
+- README wording: "A quick tour of the tools (each command finishes within seconds)".
+- CMake project version set to 1.2.0.
+- CI: pinned to Ubuntu 24.04; actions updated to Node 24 versions (actions/checkout@v5, actions/setup-python@v6).
+
+No code or data values changed.
+
+## [1.1.1] - 2026-10-07
 
      ### Changed
      - README and docs: results now stated relative to OEIS A379608 (r(n) known for n <= 15):

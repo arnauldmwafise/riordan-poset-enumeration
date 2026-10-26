@@ -1,7 +1,9 @@
 # Changelog
 
 All notable changes are recorded here. The project follows [Semantic Versioning](https://semver.org/).
+     
      ## [1.2.0] - 2026-10-26
+     
      ## [1.1.1] - 2026-10-07
 
      ### Changed

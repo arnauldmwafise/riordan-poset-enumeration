@@ -5,9 +5,11 @@
   "creators": [
     { "name": "Mesinga Mwafise, Arnauld", "affiliation": "Independent Researcher" }
   ],
-  "keywords": ["Riordan arrays", "partially ordered sets", "poset enumeration", "combinatorics", "graph isomorphism"],
+  "keywords": ["Riordan arrays", "partially ordered sets", "poset enumeration", "combinatorics", "graph isomorphism", "OEIS", "integer sequences"],
   "related_identifiers": [
-    { "identifier": "10.1016/j.laa.2021.10.002", "relation": "isSupplementTo", "scheme": "doi" }
+    { "identifier": "10.1016/j.laa.2021.10.002", "relation": "isSupplementTo", "scheme": "doi" },
+    { "identifier": "https://oeis.org/A379608", "relation": "isSupplementTo", "scheme": "url" },
+    { "identifier": "https://oeis.org/A400879", "relation": "isSupplementTo", "scheme": "url" }
   ],
-  "description": "Header-only C++20 library and tools for Riordan posets (posets whose order relation is a binary Riordan matrix): enumeration, canonical forms, verified counts of Riordan posets up to n = 28, recognition, Toeplitz and exponential Riordan posets, and an exact decision procedure for infinite Riordan posets."
+  "description": "Header-only C++20 library and tools for Riordan posets (posets whose order relation is a binary Riordan matrix): enumeration, canonical forms, verified counts of Riordan posets up to n = 28, recognition, Toeplitz and exponential Riordan posets, and an exact decision procedure for infinite Riordan posets. The counts of non-isomorphic (unlabelled) Riordan posets are in OEIS A379608 (terms n = 16..28 from this work) and the counts of labelled Riordan posets (Riordan poset matrices) are OEIS A400879."
 }
